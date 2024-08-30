@@ -5,10 +5,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/alexandru-acea-qEXFE5h0e8g-unsplash.jpg"); /* Replace with your image path */
     background-size:auto; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,31,1) 100%, rgba(0,212,255,1) 100%);
 
 }
 
@@ -20,6 +21,7 @@ body {
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+    background-image: url(images/pots-logo.png);
 }
 
 .nav-links {
@@ -43,7 +45,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #007BFF; /* Change color on hover */
+    color: #222; /* Change color on hover */
 }
 
 .logo a {
@@ -59,5 +61,11 @@ body {
 }
 
 .logo a:hover {
-    color: #007BFF; /* Change color on hover */
+    color: #222; /* Change color on hover */
+}
+
+.bg-image {
+    background-image: url(images/toushif-alam-Sif5DvVvKuE-unsplash.jpg);
+    width: 700px;
+    height: 500px;
 }
